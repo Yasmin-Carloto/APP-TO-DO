@@ -170,7 +170,7 @@ function dateFormatter(date){
 }
 
 function openEdit(task) {
-    window.location.href = `/new-task.htmll?id=${task.id}`
+    window.location.href = `/new-task.html?id=${task.id}`
 }
 
 displayTask()
