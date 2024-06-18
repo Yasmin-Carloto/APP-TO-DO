@@ -136,7 +136,7 @@ function displayTask(){
         icons.id = "icons"
 
         let edit = document.createElement('img')
-        edit.src = '/assets/edit-icon.svg'
+        edit.src = './assets/edit-icon.svg'
         edit.alt = "ícone de editar"
         edit.addEventListener("click", (e) => {
             e.preventDefault()
@@ -144,7 +144,7 @@ function displayTask(){
         })
 
         let trash = document.createElement('img')
-        trash.src = '/assets/trash-icon.svg'
+        trash.src = './assets/trash-icon.svg'
         trash.alt = "ícone de excluir"
         trash.addEventListener("click", (e) => {
             e.preventDefault()
@@ -170,7 +170,7 @@ function dateFormatter(date){
 }
 
 function openEdit(task) {
-    window.location.href = `./new-task.html?id=${task.id}`
+    window.location.href = `/new-task.htmll?id=${task.id}`
 }
 
 displayTask()
