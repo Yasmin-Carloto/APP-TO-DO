@@ -1,0 +1,93 @@
+main{
+    margin: 2em;
+    background-color: #231F20;
+    color: #fff;
+    font-family: "Montserrat Regular";
+    min-height: calc(100vh - 160px);
+}
+
+#title{
+    font-size: 20px;
+}
+
+#form-container{
+    text-align: center;
+}
+
+#form-fields{
+    margin: 1em 0;
+    text-align: left;
+}
+
+#form-container input{
+    background-color: #3A3A3A;
+}
+
+.form-field{
+    display: inline;
+    margin-right: 0.5em;
+}
+
+.form-input{
+    border-radius: 0.5em;
+    color: #fff;
+}
+
+#form-description{
+    display: block;
+    text-align: left;
+}
+
+#description-label{
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#description-input{
+    width: 90%;
+    border-radius: 0.5em;
+    height: 8em;
+    color: #fff;
+}
+
+#submit-button{
+    margin: 1em 0;
+    text-align: center;
+    color: #1E1E1E;
+    background-color: #FFB800;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    font-family: "Montserrat Black";
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#warning{
+    color: red;
+    font-size: 16px;
+}
+
+#sucess{
+    color: green;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 769px){
+    main{
+        margin: 0 10em;
+    }
+
+    #title{
+        font-size: 40px;
+    }
+
+    #form-container{
+        font-size: 18px;
+    }
+
+    .form-input{
+        display: inline;
+        margin-right: 0.5em;
+    }
+}

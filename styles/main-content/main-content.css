@@ -1,0 +1,89 @@
+main{
+    margin: 2em;
+    background-color: #231F20;
+    color: #fff;
+    font-family: "Montserrat Regular";
+    min-height: calc(100vh - 160px);
+}
+
+#title{
+    font-size: 20px;
+}
+
+#tasks-container{
+    list-style: none;
+    padding-inline-start: 0px;
+    display: block;
+}
+
+#tasks-container .task{
+    background-color: #303030;
+    text-align: center;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+#task-title{
+    display: inline;
+    padding-left: 0.5em;
+    font-size: 14px;
+}
+
+#task-due-date{
+    font-size: 8px;
+    font-family: "Montserrat Bold";
+    text-transform: uppercase;
+    color: #C6C6C6;
+}
+
+.task #checkbox, .task #task-info, .task #task-due-date{
+    display: inline-block;
+    padding-left: 0.5em;
+}
+
+#icons{
+    background-color: #1E1E1E;
+    display: inline-block;
+    padding: 0.2em;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+#icons img{
+    padding: 0.2em;
+    width: 1em;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 769px){
+    main{
+        margin: 0 4em;
+    }
+
+    #title{
+        font-size: 40px;
+    }
+    
+    #task-title{
+        font-size: 24px;
+    }
+
+    #task-due-date{
+        font-size: 16px;
+    }
+    
+    .task #checkbox, .task #task-due-date{
+        margin-left: 1em;
+    }
+
+    #icons{
+        padding: 0.5em;
+        border-radius: 1em;
+    }
+
+    #icons img{
+        padding: 0.2em;
+        width: 1.5em;
+    }
+}

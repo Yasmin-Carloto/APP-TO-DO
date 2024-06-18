@@ -1,0 +1,38 @@
+@import url(./header/header.css);
+@import url(./main-content/main-content.css);
+@import url(./footer/footer.css);
+@import url(./form-new-task/form-new-task.css);
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    position: relative;
+    padding-bottom: 60px; /* Espaço suficiente para o footer */
+    box-sizing: border-box;
+    background-color: #231F20;
+}
+
+@font-face {
+    font-family: "Montserrat Thin";
+    src: url(../fonts/Montserrat/static/Montserrat-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat Black";
+    src: url(../fonts/Montserrat/static/Montserrat-Black.ttf);
+}
