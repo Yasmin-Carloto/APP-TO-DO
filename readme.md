@@ -4,7 +4,7 @@ O APP TO DO é um web app desenvolvido utilizando javascript vanilla como projet
 Este app tem por objetivo gerenciar suas tarefas a serem feitas. Nele, você pode criar uma nova tarefa, editar tarefas já existentes e também excluir tarefas.
 
 ## Acessar App To Do
-O App To Do está hospedado no Github Pages neste link: 
+O App To Do está hospedado no Github Pages neste link: [https://yasmin-carloto.github.io/APP-TO-DO/](https://yasmin-carloto.github.io/APP-TO-DO/)
 
 ## Funcionalidades do projeto
 * HTML 
