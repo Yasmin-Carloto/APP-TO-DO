@@ -6,11 +6,17 @@ Este app tem por objetivo gerenciar suas tarefas a serem feitas. Nele, você pod
 ## Acessar App To Do
 O App To Do está hospedado no Github Pages neste link: [https://yasmin-carloto.github.io/APP-TO-DO/](https://yasmin-carloto.github.io/APP-TO-DO/)
 
-## Funcionalidades do projeto
+## Tecnologias usadas no projeto
 * HTML 
 * CSS
 * Javascript
 * Local Storage
+
+## Funcionalidades do projeto
+* Listar tarefas criadas
+* Editar tarefas
+* Excluir tarefas
+* Criar novas tarefas
 
 ## Rodar o projeto em sua máquina
 
